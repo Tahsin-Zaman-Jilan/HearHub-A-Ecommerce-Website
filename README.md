@@ -1,182 +1,232 @@
-# Nextjs Tailwind ECommerce Website Like Amazon
 
-![next amazona](/public/app.jpg)
 
-Build ECommerce Website Like Amazon by Next.js
 
-- Source Code    :  https://github.com/basir/next-amazona
-- Demo Website :  https://nextjs-amazona-final.vercel.app
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## What you will learn
 
-- NextJS basics like setting up project, navigating between pages and data fetching
-- NextJS advanced topics like dynamic routing, image optimization,  SSG and SSR
-- Tailwind CSS framework to build responsive website using custom theme, animation and carousel
-- ReactJS including decomposing components, context API and hooks
-- Next Auth package to authenticate customers and admin users
-- MongoDB and Mongoose to save and retrieve data like products, orders and users
-- PayPal developer api to make online payment
-- Deploy web applications on servers like Vercel and Netlify
 
-## Full Course
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://thumbs.dreamstime.com/b/headphones-icon-logo-vector-design-165560217.jpg">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-Learn building this ecommerce website on Udemy with 90% discount:
-https://www.udemy.com/course/nextjs-ecommerce
+  <h3 align="center">HearHub</h3>
 
-## Run it Locally
+  <p align="center">
+  Best Place to buy your headphones!
+    <br />
+    
+    
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Feature</a></li>
+    <li><a href="#roadmap">Features</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://hear-hub-a-ecommerce-website.vercel.app/)
+
+HearHub is an ecommerce headphone site project on GitHub that aims to provide customers with a seamless shopping experience for high-quality headphones and audio accessories. The project is built using modern web technologies such as React, Node.js, and MongoDB, ensuring a robust and scalable architecture.
+
+The HearHub platform features a clean and user-friendly interface that allows customers to easily browse and purchase products. Customers can search for specific products, filter products by various criteria such as price range, brand, and type, and view product details and reviews.
+
+To ensure that transactions are safe and secure, HearHub incorporates a secure payment gateway that supports multiple payment methods. The platform also includes a comprehensive order management system that enables administrators to track orders, manage inventory, and handle customer queries.
+
+HearHub's design prioritizes the user's experience by implementing a responsive design, meaning the site adapts to different screen sizes to enhance accessibility. Additionally, the site implements accessibility features to ensure everyone, regardless of abilities or disabilities, can access the site with ease.
+
+Overall, HearHub aims to provide customers with a convenient and reliable online shopping experience for high-quality headphones and audio accessories.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+This project is built with
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+
+
+### Installation
 
 ```
-$ git clone https://github.com/basir/next-tailwind-amazona
-$ cd next-tailwind-amazona
+$ git clone https://github.com/Tahsin-Zaman-Jilan/HearHub-A-Ecommerce-Website
+$ cd HearHub-A-Ecommerce-Website
 $ npm install
 $ npm run dev
 $ Open http://localhost:3000/api/seed
 $ Open http://localhost:3000
 ```
 
-## Lessons
 
-1. Introduction
-2. Install Tools
-3. Create Next App
-4. Publish to Github
-5. Create Website Layout
-   1. create layout component
-   2. add header
-   3. add main section
-   4. add footer
-   5. add tailwind classes
-6. List Products
-   1. add data.js
-   2. add images
-   3. render products
-7. Create Product Details
-   1. create product page
-   2. create 3 columns
-   3. show image in first column
-   4. show product info in second column
-   5. show add to cart action on third column
-   6. add styles
-8. Handle Add To Cart
-   1. define react context
-   2. define cart items state
-   3. create addd to cart action
-   4. add reducer
-   5. create store provider
-   6. handle add to cart button
-9. Create Cart Page
-   1. create cart.js
-   2. use context to get cart items
-   3. list items in cart items
-   4. redirect to cart screen after add to cart
-10. Update Quantity In The Cart
-    1. add select box for quantity
-    2. handle select box change
-11. Save Cart Items
-    1. install js-cookie package
-    2. save and retreive cart items in cookies
-12. Create Login Form
-    1. install react hook form
-    2. create input boxes
-    3. add login button
-13. Connect To MongoDB
-    1. install mongoose
-    2. install mongodb or use mongodb atlas
-    3. save connection url in .env file
-    4. create db utils file
-    5. create sample users
-14. Create Login API
-    1. install next-auth
-    2. create nextauth.js
-    3. implement signin
-    4. use signin in login form
-15. Add User Menu
-    1. check user authentication
-    2. install headlessui
-    3. show user menu
-16. Create Shipping Screen
-    1. display address fields
-    2. save address in context
-17. Create Payment Method Screen
-    1. dispaly payment methods
-    2. save payment method in context
-18. Seed sample products
-    1. create product model in mongoose
-    2. insert sample products to mongodb
-19. Load Products MongoDB
-    1. load products in home page from mongodb
-    2. load products in product page from mongodb
-    3. use product api to check count in stock in add to cart
-20. Create Place Order Screen
-    1. display shipping address
-    2. display payment method
-    3. display order items
-    4. implment create order
-21. Create Order Screen
-    1. implement backend api for order details
-    2. load order data from backend
-    3. display order details
-22. Create Register Screen
-    1. add signup api
-    2. create register page
-    3. call api on form submit
-23. Pay Order By PayPal
-    1. add paypal button
-    2. handle payment
-    3. create backend api
-    4. update order state
-24. Create Order History Screen
-    1. create my order api
-    2. create order history component
-    3. fetch orders and display them
-25. Publish On Vercel
-    1. create vercel account
-    2. connect to github
-    3. set next auth and mongodb db in env vars
-    4. push code to github
-26. Update User Profile
-    1. create profile screen
-    2. show user info
-    3. handle update user info
-27. Create Admin Dashboard
-    1. Create Admin Menu
-    2. create dashboard screen
-    3. Implement admin summary api
-28. List Orders For Admin
-    1. create orders page
-    2. create orders api
-    3. use api in page
-29. Deliver Order For Admin
-    1. create deliver api
-    2. add deliver button
-    3. implement click handler
-30. List Products For Admin
-    1. create products page
-    2. create products api
-    3. use api in page
-31. Create Product Edit Page
-    1. create edit page
-    2. create api for product
-    3. show product data in form
-32. Upload Product Image
-    1. create cloudinary account
-    2. get cloudinary keys
-    3. create upload api
-    4. upload files in edit page
-33. Create And Delete Products
-    1. add create product button
-    2. build new product api
-    3. add handler for delete
-    4. implement delete api
-34. List Users For Admin
-    1. create users page
-    2. create users api
-    3. use api in page
-35. Add Carousel
-    1. create featured products
-    2. feed carousel data
-    3. show popular products
-36. Create Search Page
-    1. create filters
-    2. list products
-    3. show filters
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Add Changelog
+- [x] Add back to top links
+- [ ] Add Additional Templates w/ Examples
+- [ ] Add "components" document to easily copy & paste sections of the readme
+- [ ] Multi-language Support
+    - [ ] Chinese
+    - [ ] Spanish
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
