@@ -104,7 +104,7 @@ $ Open http://localhost:3000
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Features
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
