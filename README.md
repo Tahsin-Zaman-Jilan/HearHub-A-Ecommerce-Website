@@ -3,6 +3,8 @@
 
 ### Live link
 https://hear-hub-a-ecommerce-website.vercel.app/
+### video presentation
+https://www.youtube.com/watch?v=60gCqvXCHtg
 
 <!-- PROJECT LOGO -->
 <br />
