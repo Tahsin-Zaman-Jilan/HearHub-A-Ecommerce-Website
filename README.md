@@ -8,7 +8,7 @@ https://hear-hub-a-ecommerce-website.vercel.app/
 <br />
 <div align="center">
   <a href="https://thumbs.dreamstime.com/b/headphones-icon-logo-vector-design-165560217.jpg">
-    <img src="[![headphones-icon-logo-vector-design-165560217](https://user-images.githubusercontent.com/77837621/232428240-0ef4ff5e-8615-4a78-9c31-ce6e662531a3.jpg)](https://thumbs.dreamstime.com/b/headphones-icon-logo-vector-design-165560217.jpg)" alt="Logo" width="80" height="80">
+    <img src="https://thumbs.dreamstime.com/b/headphones-icon-logo-vector-design-165560217.jpg" alt="Logo" width="80" height="80">
   </a>
 
 
