@@ -55,7 +55,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://hear-hub-a-ecommerce-website.vercel.app/)
+![Capture212](https://user-images.githubusercontent.com/77837621/232425262-1c5ca596-f796-4ea8-9a8c-e43af8b99c6a.PNG)(https://hear-hub-a-ecommerce-website.vercel.app/)
+
 
 HearHub is an ecommerce headphone site project on GitHub that aims to provide customers with a seamless shopping experience for high-quality headphones and audio accessories. The project is built using modern web technologies such as React, Node.js, and MongoDB, ensuring a robust and scalable architecture.
 
