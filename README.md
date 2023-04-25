@@ -109,19 +109,19 @@ $ Open http://localhost:3000
 
 HearHub offers several key features to enhance your shopping experience, including:
 
-### Authentication
+###### Authentication
 HearHub uses a secure authentication system to ensure that your account information is protected. Users can create an account, log in, and reset their passwords if necessary.
 
-### Search Bar
+###### Search Bar
 Our search bar allows users to quickly and easily find the music they're looking for. Whether you're searching by artist, album, or genre, HearHub has got you covered.
 
-### Cart
+###### Cart
 The HearHub cart system allows users to add items to their cart and checkout securely. Users can view their cart at any time and make changes before finalizing their purchase.
 
-### Payment System
+###### Payment System
 HearHub uses a secure payment system to process transactions. We accept all major credit cards and PayPal, and our checkout process is designed to be fast and easy.
 
-### Admin Panel
+###### Admin Panel
 The HearHub admin panel allows store administrators to manage products, orders, and users. Admins can add, edit, and delete products, view order details, and manage user accounts.
 <!-- ROADMAP -->
 
@@ -203,15 +203,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+
